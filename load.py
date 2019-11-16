@@ -70,7 +70,7 @@ def add_lamp(dir, shape_name):
 s = 'semicircle'
 l = 'A'
 create(default_shapes[s], s, (0, 0, 0), 'green')
-create(default_letters[l], l, (0, 0, 0.07), 'red')
+create(default_letters[l], l, (-0.25, -0.25, 0.07), 'red')
 add_lamp('left', s)
 
 #toggles view to camera
